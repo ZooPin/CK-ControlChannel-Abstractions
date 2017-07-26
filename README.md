@@ -1,4 +1,4 @@
-# CK-ControlChannel abstractions
+﻿# CK-ControlChannel abstractions
 
 High-level interfaces for CK.ControlChannel.Server and CK.ControlChannel.Client.
 
@@ -15,11 +15,21 @@ High-level interfaces for CK.ControlChannel.Server and CK.ControlChannel.Client.
 2. In Powershell, run `CodeCakeBuilder/Bootstrap.ps1`
 3. Run `CodeCakeBuilder/bin/Release/CodeCakeBuilder.exe`
 
+## NuGet packages
+
+| Feed | Version |
+| --- | --- |
+| Stable | [![NuGet Badge](https://buildstats.info/nuget/CK.ControlChannel.Abstractions)](https://www.nuget.org/packages/CK.ControlChannel.Abstractions) |
+| Unstable | [![NuGet Badge](https://buildstats.info/nuget/CK.ControlChannel.Abstractions?includePreReleases=true)](https://www.nuget.org/packages/CK.ControlChannel.Abstractions) |
+| CI | [![MyGet Badge](https://buildstats.info/myget/invenietis-preview/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-preview/package/nuget/CK.ControlChannel.Abstractions) |
+
 ## Build status
 
-| Branch | Windows |
-| ------ | ------- |
-| master | -       |
+| Branch   | Visual Studio 2017 |
+| -------- | ------- |
+| *(latest)* | [![Latest build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
+| `master`   | [![Latest master build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions/master.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
+| `develop`  | [![Latest develop build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions/develop.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
 
 ## Contributing
 
