@@ -19,9 +19,10 @@ High-level interfaces for CK.ControlChannel.Server and CK.ControlChannel.Client.
 
 | Feed | Version |
 | --- | --- |
-| Stable | [![NuGet Badge](https://buildstats.info/nuget/CK.ControlChannel.Abstractions)](https://www.nuget.org/packages/CK.ControlChannel.Abstractions) |
-| Unstable | [![NuGet Badge](https://buildstats.info/nuget/CK.ControlChannel.Abstractions?includePreReleases=true)](https://www.nuget.org/packages/CK.ControlChannel.Abstractions) |
-| CI | [![MyGet Badge](https://buildstats.info/myget/invenietis-preview/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-preview/package/nuget/CK.ControlChannel.Abstractions) |
+| **NuGet stable** | (TBD) |
+| NuGet prerelease | (TBD) |
+| MyGet preview | [![MyGet Badge](https://buildstats.info/myget/invenietis-preview/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-preview/package/nuget/CK.ControlChannel.Abstractions) |
+| MyGet CI | [![MyGet Badge](https://buildstats.info/myget/invenietis-ci/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-ci/package/nuget/CK.ControlChannel.Abstractions) |
 
 ## Build status
 
