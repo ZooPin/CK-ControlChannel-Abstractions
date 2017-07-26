@@ -42,7 +42,7 @@ namespace CK.ControlChannel.Abstractions
         /// <summary>
         /// Data provided by the client when authenticating
         /// </summary>
-        IReadOnlyDictionary<string, string> ClientData { get; set; }
+        IReadOnlyDictionary<string, string> ClientData { get; }
     }
 
 }
