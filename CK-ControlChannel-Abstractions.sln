@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CK.ControlChannel.Abstractions", "CK.ControlChannel.Abstractions\CK.ControlChannel.Abstractions.csproj", "{0EC4719E-FF55-45D8-BCA4-05E20B3E1F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CK.ControlChannel.Abstractions", "CK.ControlChannel.Abstractions\CK.ControlChannel.Abstractions.csproj", "{0EC4719E-FF55-45D8-BCA4-05E20B3E1F97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeCakeBuilder", "CodeCakeBuilder", "{964CC907-0466-454A-A247-A9E5B1E820D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCakeBuilder", "CodeCakeBuilder\CodeCakeBuilder.csproj", "{FD4817B6-3CD7-4E74-AA10-7CA95FDFCF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CK.ControlChannel.Abstractions.Tests", "Tests\CK.ControlChannel.Abstractions.Tests\CK.ControlChannel.Abstractions.Tests.csproj", "{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FC8A91DD-1964-45EE-8936-7F7D329F4C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +27,16 @@ Global
 		{FD4817B6-3CD7-4E74-AA10-7CA95FDFCF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4817B6-3CD7-4E74-AA10-7CA95FDFCF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4817B6-3CD7-4E74-AA10-7CA95FDFCF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FD4817B6-3CD7-4E74-AA10-7CA95FDFCF2D} = {964CC907-0466-454A-A247-A9E5B1E820D1}
+		{2C4FF7CB-C04F-465B-B0DC-CC5D33B7898B} = {FC8A91DD-1964-45EE-8936-7F7D329F4C28}
 	EndGlobalSection
 EndGlobal
