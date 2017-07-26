@@ -11,7 +11,7 @@ namespace CK.ControlChannel.Abstractions
     /// <param name="monitor">A monitor created by this <see cref="IControlChannelServer"/> upon receiving data</param>
     /// <param name="data">Data received</param>
     /// <param name="clientSession">Session of this client</param>
-    public delegate void ChannelDataHandler( IActivityMonitor monitor, byte[] data, IServerClientSession clientSession );
+    public delegate void ServerChannelDataHandler( IActivityMonitor monitor, byte[] data, IServerClientSession clientSession );
 
     /// <summary>
     /// Control channel server interface
@@ -53,7 +53,7 @@ namespace CK.ControlChannel.Abstractions
         /// </summary>
         /// <param name="channelName">Name of the channel</param>
         /// <param name="handler">Data handler</param>
-        void RegisterChannelHandler( string channelName, ChannelDataHandler handler );
+        void RegisterChannelHandler( string channelName, ServerChannelDataHandler handler );
 
         /// <summary>
         /// Gets the client sessions that are connected and have been successfully authenticated with this <see cref="IControlChannelServer"/>.
