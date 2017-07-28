@@ -1,7 +1,8 @@
-﻿using CK.Core;
+using CK.Core;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CK.ControlChannel.Abstractions
 {
@@ -49,6 +50,6 @@ namespace CK.ControlChannel.Abstractions
         /// </summary>
         /// <param name="channelName">Name of the channel</param>
         /// <param name="data">Data to send</param>
-        void Send( string channelName, byte[] data );
+        Task SendAsync( string channelName, byte[] data );
     }
 }

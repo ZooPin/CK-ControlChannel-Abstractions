@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -11,21 +11,12 @@ namespace CK.ControlChannel.Abstractions
     public sealed class ControlMessage
     {
         /// <summary>
-        /// The key to find the control message type in its data dictionary.
-        /// </summary>
-        public static readonly string TypeKey = "_Type";
-
-        /// <summary>
         /// The encoding used when serializing and deserializing control messages.
         /// </summary>
         public static readonly Encoding ControlMessageEncoding = Encoding.UTF8;
 
         public static byte[] SerializeControlMessage( IReadOnlyDictionary<string, string> data )
         {
-            if( !data.ContainsKey( TypeKey ) )
-            {
-                throw new InvalidOperationException( $"Control message is missing the {TypeKey} key" );
-            }
             using( MemoryStream ms = new MemoryStream() )
             {
                 //using( GZipStream gz = new GZipStream( ms, CompressionLevel.Optimal, true ) )
