@@ -11,7 +11,7 @@ namespace CK.ControlChannel.Abstractions
     /// </summary>
     /// <param name="monitor">A monitor created by this <see cref="IControlChannelClient"/> upon receiving data</param>
     /// <param name="data">Data received</param>
-    public delegate void ClientChannelDataHandler( IActivityMonitor monitor, byte[] data, IServerClientSession clientSession );
+    public delegate void ClientChannelDataHandler( IActivityMonitor monitor, byte[] data );
 
     /// <summary>
     /// Client for IControlChannelServer implementations.
