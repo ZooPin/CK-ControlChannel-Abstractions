@@ -1,4 +1,4 @@
-﻿# CK-ControlChannel abstractions
+# CK-ControlChannel abstractions
 
 High-level interfaces for CK.ControlChannel.Server and CK.ControlChannel.Client.
 
@@ -21,16 +21,16 @@ High-level interfaces for CK.ControlChannel.Server and CK.ControlChannel.Client.
 | --- | --- |
 | **NuGet stable** | (TBD) |
 | NuGet prerelease | (TBD) |
-| MyGet preview | [![MyGet Badge](https://buildstats.info/myget/invenietis-preview/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-preview/package/nuget/CK.ControlChannel.Abstractions) |
-| MyGet CI | [![MyGet Badge](https://buildstats.info/myget/invenietis-ci/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/invenietis-ci/package/nuget/CK.ControlChannel.Abstractions) |
+| MyGet preview | [![MyGet Badge](https://buildstats.info/myget/glouton-preview/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/glouton-preview/package/nuget/CK.ControlChannel.Abstractions) |
+| MyGet CI | [![MyGet Badge](https://buildstats.info/myget/glouton-ci/CK.ControlChannel.Abstractions)](https://www.myget.org/feed/glouton-ci/package/nuget/CK.ControlChannel.Abstractions) |
 
 ## Build status
 
 | Branch   | Visual Studio 2017 |
 | -------- | ------- |
-| *(latest)* | [![Latest build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
-| `master`   | [![Latest master build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions/master.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
-| `develop`  | [![Latest develop build](https://img.shields.io/appveyor/ci/olivier-spinelli/ck-controlchannel-abstractions/develop.svg)](https://ci.appveyor.com/project/olivier-spinelli/ck-controlchannel-abstractions) |
+| *(latest)* | [![Latest build](https://img.shields.io/appveyor/ci/glouton/ck-controlchannel-abstractions.svg)](https://ci.appveyor.com/project/glouton/ck-controlchannel-abstractions) |
+| `master`   | [![Latest master build](https://img.shields.io/appveyor/ci/glouton/ck-controlchannel-abstractions/master.svg)](https://ci.appveyor.com/project/glouton/ck-controlchannel-abstractions) |
+| `develop`  | [![Latest develop build](https://img.shields.io/appveyor/ci/glouton/ck-controlchannel-abstractions/develop.svg)](https://ci.appveyor.com/project/glouton/ck-controlchannel-abstractions) |
 
 ## Contributing
 
